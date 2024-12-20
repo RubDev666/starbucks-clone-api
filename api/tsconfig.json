@@ -1,14 +1,16 @@
 {
   "compilerOptions": {
-    "target": "ES6",
-    "module": "CommonJS",
-    "outDir": "./dist",
-    "rootDir": "./src",
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
-  },
-  "include": ["src"],
-  "exclude": ["node_modules", "dist"]
+    "target": "es2016",
+     "module": "commonjs",
+      "outDir": "./dist",
+      "rootDir": "./src",
+     "esModuleInterop": true,
+     "forceConsistentCasingInFileNames": true,
+      "strict": true,
+     "skipLibCheck": true,
+      "sourceMap": true,
+      "resolveJsonModule": true
+   },
+   "include": ["src/**/*", "swagger.json"],
+   "exclude": ["node_modules", "dist"]
 }

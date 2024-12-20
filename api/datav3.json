@@ -1,0 +1,876 @@
+{
+  "menu": {
+    "categories": [
+      {
+        "name": "Bebidas",
+        "types": [
+          {
+            "title": "Bebidas Calientes",
+            "image": "",
+            "categories": [
+              {
+                "title": "Espresso y Café",
+                "items": [
+                  {
+                    "name": "Espresso",
+                    "image": "",
+                    "sizes": {
+                      "default": "0"
+                    },
+                    "description": ""
+                  },
+                  {
+                    "name": "Espresso Doppio",
+                    "image": "",
+                    "sizes": {
+                      "default": "0"
+                    },
+                    "description": ""
+                  },
+                  {
+                    "name": "Café del día",
+                    "image": "",
+                    "sizes": {
+                      "short": "0",
+                      "tall": "0",
+                      "big": "0",
+                      "venti": "0"
+                    },
+                    "description": ""
+                  },
+                  {
+                    "name": "Espresso Americano",
+                    "image": "",
+                    "sizes": {
+                      "short": "0",
+                      "tall": "0",
+                      "big": "0",
+                      "venti": "0"
+                    },
+                    "description": "Los shots de espresso cubiertos con agua caliente crean una ligera capa de crema que culmina en esta taza de maravillosa profundidad."
+                  }
+
+                ]
+              },
+
+              {
+                "title": "Espresso Tradicional",
+                "items": [
+                  {
+                    "name": "Latte Macchiato",
+                    "image": "",
+                    "sizes": {
+                      "short": "120",
+                      "tall": "130",
+                      "big": "220",
+                      "venti": "300"
+                    },
+                    "description": "Leche perfectamente vaporizada, recibe los característicos shots de ristretto, de nuestro intenso espresso."
+                  },
+                  {
+                    "name": "Flat White",
+                    "image": "",
+                    "sizes": {
+                      "short": "110",
+                      "tall": "120",
+                      "big": "170",
+                      "venti": "230"
+                    },
+                    "description": "Los suaves shots de ristretto, de espresso, obtienen la cantidad perfecta de leche entera al vapor para crear un sabor no demasiado fuerte, no demasiado cremoso y perfecto."
+                  },
+                  {
+                    "name": "Mocha Blanco",
+                    "image": "",
+                    "sizes": {
+                      "tall": "240",
+                      "big": "410",
+                      "venti": "510"
+                    },
+                    "description": "Nuestro característico espresso se combina con salsa de chocolate blanco, leche al vapor y crema batida crean esta delicia suprema de chocolate blanco."
+                  },
+                  {
+                    "name": "Mocha",
+                    "image": "",
+                    "sizes": {
+                      "tall": "240",
+                      "big": "410",
+                      "venti": "510"
+                    },
+                    "description": "Combinamos nuestro espresso, lleno de cuerpo, con salsa de chocolate y leche al vapor; lo completamos con crema batida. La clásica bebida con café para satisfacer a los que les gusta un poco de dulce en su día."
+                  },
+                  {
+                    "name": "Caramel Macchiato",
+                    "image": "",
+                    "sizes": {
+                      "tall": "160",
+                      "big": "200",
+                      "venti": "260"
+                    },
+                    "description": "Leche al vapor manchada con espresso y un toque de vainilla, cubierta con un característico dibujo de caramelo. Dulce, intenso y único."
+                  },
+                  {
+                    "name": "Cappuccino",
+                    "image": "",
+                    "sizes": {
+                      "tall": "120",
+                      "big": "150",
+                      "venti": "190"
+                    },
+                    "description": "Intenso espresso bajo la capa gruesa y espumosa de leche cuidadosamente vaporizada."
+                  },
+                  {
+                    "name": "Latte",
+                    "image": "",
+                    "sizes": {
+                      "tall": "120",
+                      "big": "150",
+                      "venti": "200"
+                    },
+                    "description": "Nuestro característico espresso, dulce y equilibrado, con leche al vapor con una ligera y aterciopelada capa de espuma."
+                  }
+
+                ]
+              },
+
+              {
+                "title": "Alternativas al Café",
+                "items": [
+                  {
+                    "name": "Chocolate Caliente",
+                    "image": "",
+                    "sizes": {
+                      "short": "230",
+                      "tall": "320",
+                      "big": "410",
+                      "venti": "500"
+                    },
+                    "description": "Leche vaporizada combinada con salsa de chocolate y vainilla, cubierto con crema batida y espiral de salsa de chocolate."
+                  },
+                  {
+                    "name": "Chocolate Mexicano",
+                    "image": "",
+                    "sizes": {
+                      "tall": "243",
+                      "big": "308",
+                      "venti": "408"
+                    },
+                    "description": "Los sabores tradicionales del cacao, con toques a canela, se mezclan perfectamente con leche para consentirte."
+                  }
+
+
+                ]
+              }
+
+            ]
+          },
+
+          {
+            "title": "Frappuccino",
+            "image": "",
+            "categories": [
+              {
+                "title": "Frappuccino Café",
+                "items": [
+                  {
+                    "name": "Mocha Blanco Frappuccino",
+                    "image": "",
+                    "sizes": {
+                      "short": "120",
+                      "tall": "130",
+                      "big": "220",
+                      "venti": "300"
+                    },
+                    "description": "Una mezcla de chocolate Blanco con café, hielo y leche, podría ser lo mejor que te pudiera pasar en todo el día."
+                  },
+                  {
+                    "name": "Espresso Frappuccino",
+                    "image": "",
+                    "sizes": {
+                      "short": "110",
+                      "tall": "120",
+                      "big": "170",
+                      "venti": "230"
+                    },
+                    "description": "Combinación de leche y hielo con shots de espresso, para darle intensidad sofisticada a tu Frappuccino."
+                  },
+                  {
+                    "name": "Mocha Frappuccino",
+                    "image": "",
+                    "sizes": {
+                      "tall": "240",
+                      "big": "410",
+                      "venti": "510"
+                    },
+                    "description": "La salsa de chocolate, con la intensidad del café Frappuccino, leche y hielo se unen para obtener un sabor a mocha que te dejará con ganas de más."
+                  },
+                  {
+                    "name": "Café Frappuccino",
+                    "image": "",
+                    "sizes": {
+                      "tall": "240",
+                      "big": "410",
+                      "venti": "510"
+                    },
+                    "description": "Mezclamos el café con leche y hielo para crear una de nuestras bebidas más originales de Frappuccino®."
+                  },
+                  {
+                    "name": "Caramel Frappuccino",
+                    "image": "",
+                    "sizes": {
+                      "tall": "160",
+                      "big": "200",
+                      "venti": "260"
+                    },
+                    "description": "El jarabe de caramelo se encuentra con el café, la leche y el hielo para una cita en la licuadora, mientras que la crema batida y la salsa de caramelo con mantequilla cubren de amor por encima."
+                  }
+                ]
+              },
+
+              {
+                "title": "Frappuccino Crema",
+                "items": [
+                  {
+                    "name": "Cookies & Cream Frappuccino",
+                    "image": "",
+                    "sizes": {
+                      "short": "120",
+                      "tall": "130",
+                      "big": "220",
+                      "venti": "300"
+                    },
+                    "description": ""
+                  },
+                  {
+                    "name": "Chocolate Mexicano Frappuccino",
+                    "image": "",
+                    "sizes": {
+                      "short": "110",
+                      "tall": "120",
+                      "big": "170",
+                      "venti": "230"
+                    },
+                    "description": ""
+                  },
+                  {
+                    "name": "Piñacoco Yogurt Frappuccino",
+                    "image": "",
+                    "sizes": {
+                      "tall": "240",
+                      "big": "410",
+                      "venti": "510"
+                    },
+                    "description": "Fusionamos el yogurt natural con salsa de piña-coco y hielos, ideal para cualquier momento del día."
+                  },
+                  {
+                    "name": "Berry Yogurt Frappuccino",
+                    "image": "",
+                    "sizes": {
+                      "tall": "240",
+                      "big": "410",
+                      "venti": "510"
+                    },
+                    "description": "Combinación de yogurt natural con salsa de moras y mezclados con hielo."
+                  },
+                  {
+                    "name": "Chai Cream Frappuccino®",
+                    "image": "",
+                    "sizes": {
+                      "tall": "160",
+                      "big": "200",
+                      "venti": "260"
+                    },
+                    "description": "Nuestro concentrado de chai (mezcla de tés y especias) se combina con leche y hielos, para tener una experiencia de otro nivel."
+                  },
+                  {
+                    "name": "Cajeta Cream Frappuccino",
+                    "image": "",
+                    "sizes": {
+                      "tall": "120",
+                      "big": "150",
+                      "venti": "190"
+                    },
+                    "description": "El sabor acaramelado de la cajeta se une con hielo y leche."
+                  },
+                  {
+                    "name": "Vainilla Cream Frappuccino",
+                    "image": "",
+                    "sizes": {
+                      "tall": "120",
+                      "big": "150",
+                      "venti": "200"
+                    },
+                    "description": "Rica y cremosa mezcla de vainilla, cubierta con crema batida."
+                  },
+                  {
+                    "name": "Chocolate Cream Frappuccino",
+                    "image": "",
+                    "sizes": {
+                      "tall": "120",
+                      "big": "150",
+                      "venti": "200"
+                    },
+                    "description": "Rica y cremosa mezcla de chocolate, cubierta con crema batida."
+                  },
+                  {
+                    "name": "Matcha Cream Frappuccino",
+                    "image": "",
+                    "sizes": {
+                      "tall": "120",
+                      "big": "150",
+                      "venti": "200"
+                    },
+                    "description": "Frappuccino base leche, mezclado con Té Matcha, un toque dulce y molido con hielo."
+                  }
+
+                ]
+              }
+
+            ]
+          },
+
+          {
+            "title": "Bebidas Frías",
+            "image": "",
+            "categories": [
+              {
+                "title": "Shakens",
+                "items": [
+                  {
+                    "name": "Helado Shaken Lemon Black Tea",
+                    "image": "",
+                    "sizes": {
+                      "tall": "66",
+                      "big": "88",
+                      "venti": "110"
+                    },
+                    "description": "Helada y deliciosa bebida a base de Té negro con limonada y ligeramente endulzado."
+                  }
+
+                ]
+              },
+
+              {
+                "title": "Refreshers",
+                "items": [
+                  {
+                    "name": "Mango Dragonfruit Refresher con Limonada",
+                    "image": "",
+                    "sizes": {
+                      "tall": "150",
+                      "big": "189",
+                      "venti": "230"
+                    },
+                    "description": "Leche perfectamente vaporizada, recibe los característicos shots de ristretto, de nuestro intenso espresso."
+                  },
+                  {
+                    "name": "Pink Drink",
+                    "image": "",
+                    "sizes": {
+                      "tall": "108",
+                      "big": "137",
+                      "venti": "167"
+                    },
+                    "description": "Nuestro clásico Strawberry Acaí con un toque de leche de coco."
+                  },
+                  {
+                    "name": "Strawberry Acaí Refresher con Limonada",
+                    "image": "",
+                    "sizes": {
+                      "tall": "147",
+                      "big": "189",
+                      "venti": "232"
+                    },
+                    "description": "Nuestro exclusivo extracto de café verde mezclado con un refrescante concentrado de frutas (fresa y acaí), con inclusiones de fresa, limonada y hielo."
+                  },
+                  {
+                    "name": "Mango Dragonfruit Refresher",
+                    "image": "",
+                    "sizes": {
+                      "tall": "360",
+                      "big": "470",
+                      "venti": "550"
+                    },
+                    "description": "Nuestro exclusivo extracto de café verde mezclado con un refrescante concentrado de frutas (mango y pitahaya), infusiones de pitahaya y hielo."
+                  },
+                  {
+                    "name": "Strawberry Acai Refresher",
+                    "image": "",
+                    "sizes": {
+                      "tall": "108",
+                      "big": "137",
+                      "venti": "167"
+                    },
+                    "description": "Nuestro exclusivo extracto de café verde mezclado con un refrescante concentrado de frutas (fresa y acaí), con inclusiones de fresa y hielo."
+                  },
+                  {
+                    "name": "Mango Dragonfruit Frozen Refreshers",
+                    "image": "",
+                    "sizes": {
+                      "tall": "360",
+                      "big": "470",
+                      "venti": "550"
+                    },
+                    "description": "Una refrescante mezcla de jugos de fruta con sabores intensos (pitahaya), extracto de café verde y trozos de frutas liofilizadas mezclados con limonada y hielo."
+                  },
+                  {
+                    "name": "Strawberry Acai Frozen Refreshers",
+                    "image": "",
+                    "sizes": {
+                      "tall": "360",
+                      "big": "470",
+                      "venti": "550"
+                    },
+                    "description": "Una refrescante mezcla de jugos de fruta con sabores intensos (fresa y acai), extracto de café verde y trozos de frutas liofilizadas mezclados con limonada y hielo."
+                  }
+
+                ]
+              },
+
+              {
+                "title": "Starbucks Con Hielo",
+                "items": [
+                  {
+                    "name": "Brown Sugar Shaken Espresso Helado",
+                    "image": "",
+                    "sizes": {
+                      "tall": "60",
+                      "big": "80",
+                      "venti": "100"
+                    },
+                    "description": ""
+                  },
+                  {
+                    "name": "Toasted Vainilla Shaken Espresso Helado",
+                    "image": "",
+                    "sizes": {
+                      "tall": "110",
+                      "big": "150",
+                      "venti": "170"
+                    },
+                    "description": ""
+                  },
+                  {
+                    "name": "Cappuccino Helado con Cold Foam",
+                    "image": "",
+                    "sizes": {
+                      "tall": "144",
+                      "big": "156",
+                      "venti": "170"
+                    },
+                    "description": ""
+                  }
+
+
+                ]
+              }
+
+            ]
+          },
+
+          {
+            "title": "Bebidas Base Té",
+            "image": "",
+            "categories": [
+              {
+                "title": "Té Latte Caliente",
+                "items": [
+                  {
+                    "name": "Manzanilla Latte",
+                    "image": "",
+                    "sizes": {
+                      "tall": "350",
+                      "big": "440",
+                      "venti": "540"
+                    },
+                    "description": ""
+                  },
+
+                  {
+                    "name": "Youthberry Latte",
+                    "image": "",
+                    "sizes": {
+                      "tall": "350",
+                      "big": "440",
+                      "venti": "540"
+                    },
+                    "description": ""
+                  },
+
+                  {
+                    "name": "Mint Latte",
+                    "image": "",
+                    "sizes": {
+                      "tall": "350",
+                      "big": "440",
+                      "venti": "540"
+                    },
+                    "description": ""
+                  },
+
+                  {
+                    "name": "Hibiscus Latte",
+                    "image": "",
+                    "sizes": {
+                      "tall": "350",
+                      "big": "440",
+                      "venti": "540"
+                    },
+                    "description": ""
+                  },
+
+                  {
+                    "name": "English Breakfast Latte",
+                    "image": "",
+                    "sizes": {
+                      "tall": "350",
+                      "big": "440",
+                      "venti": "540"
+                    },
+                    "description": ""
+                  },
+
+                  {
+                    "name": "Matcha Green Tea Latte",
+                    "image": "",
+                    "sizes": {
+                      "tall": "350",
+                      "big": "440",
+                      "venti": "540"
+                    },
+                    "description": "Té Matcha endulzado y mezclado con leche vaporizada."
+                  },
+
+                  {
+                    "name": "Emperor´s Clouds & Mist Latte",
+                    "image": "",
+                    "sizes": {
+                      "tall": "350",
+                      "big": "440",
+                      "venti": "540"
+                    },
+                    "description": "Té verde con un rico cuerpo y un sabor dulce natural, con hielos."
+                  }
+
+                ]
+              },
+
+              {
+                "title": "Infusiones con Tés de Hoja Entera",
+                "items": [
+                  {
+                    "name": "Hibiscus",
+                    "image": "",
+                    "sizes": {
+                      "tall": "0",
+                      "big": "0",
+                      "venti": "0"
+                    },
+                    "description": ""
+                  },
+                  {
+                    "name": "Manzanilla",
+                    "image": "",
+                    "sizes": {
+                      "tall": "0",
+                      "big": "0",
+                      "venti": "0"
+                    },
+                    "description": "Una mezcla de flores de manzanilla, flores de hibisco, hojas de hierbabuena, hierba limón, pétalos de rosa, hojas de zarzamora, hojas de menta, raíz de zarzaparrilla, melisa, lavanda y caléndula."
+                  },
+                  {
+                    "name": "Youthberry",
+                    "image": "",
+                    "sizes": {
+                      "tall": "0",
+                      "big": "0",
+                      "venti": "0"
+                    },
+                    "description": "Té blanco, inspirado en las superfrutas, el fruto acaí se mezcla con los sabores tropicales de la piña y el mango y con té blanco de alta calidad, equilibrado con rosa mosqueta y manzana verde ácida."
+                  },
+                  {
+                    "name": "Mint",
+                    "image": "",
+                    "sizes": {
+                      "tall": "0",
+                      "big": "0",
+                      "venti": "0"
+                    },
+                    "description": ""
+                  },
+                  {
+                    "name": "Emperors Clouds & Mist",
+                    "image": "",
+                    "sizes": {
+                      "tall": "0",
+                      "big": "0",
+                      "venti": "0"
+                    },
+                    "description": "Té verde, exclusivamente recolectado durante el mes de abril a más de mil metros sobre el nivel del mar, este té tiene un rico cuerpo y un sabor dulce natural."
+                  },
+                  {
+                    "name": "English Breakfast",
+                    "image": "",
+                    "sizes": {
+                      "tall": "360",
+                      "big": "470",
+                      "venti": "550"
+                    },
+                    "description": "Un clásico elegante Té negro, complejo y de larga tradición con astringencia suave, equilibrada y notas generosas de miel."
+                  }
+                ]
+              },
+
+              {
+                "title": "Starbucks Tea",
+                "items": [
+
+                ]
+              },
+
+              {
+                "title": "Té Concentrado",
+                "items": [
+                  {
+                    "name": "Chai Latte",
+                    "image": "",
+                    "sizes": {
+                      "tall": "350",
+                      "big": "440",
+                      "venti": "540"
+                    },
+                    "description": "Característico e intenso concentrado de una combinación de tés y especias mezclado con la leche vaporizada."
+                  }
+
+                ]
+              },
+
+              {
+                "title": "Té Helado",
+                "items": [
+
+                ]
+              }
+
+            ]
+          },
+
+          {
+            "title": "Cold Brew",
+            "image": "",
+            "categories": [
+              {
+                "title": "Starbucks Con Hielo",
+                "items": [
+                  {
+                    "name": "Cold Foam Cold Brew",
+                    "image": "",
+                    "sizes": {
+                      "tall": "41",
+                      "big": "62",
+                      "venti": "84"
+                    },
+                    "description": ""
+                  },
+
+                  {
+                    "name": "Nitro Cold Brew",
+                    "image": "",
+                    "sizes": {
+                      "tall": "0",
+                      "big": "0"
+                    },
+                    "description": ""
+                  },
+
+                  {
+                    "name": "Vainilla Cream Cold Brew",
+                    "image": "",
+                    "sizes": {
+                      "tall": "180",
+                      "big": "190",
+                      "venti": "210"
+                    },
+                    "description": "Bebida refrescante y re-energizante, preparada artesanalmente con un toque de vainilla."
+                  },
+
+                  {
+                    "name": "Cold Brew",
+                    "image": "",
+                    "sizes": {
+                      "tall": "50",
+                      "big": "60",
+                      "venti": "80"
+                    },
+                    "description": "Café preparado artesanalmente e infusionado durante 20 hrs. para extraer sabores excepcionales."
+                  }
+
+                ]
+              }
+
+
+
+            ]
+          }
+
+
+
+
+        ]
+      },
+      {
+        "name": "Alimentos",
+        "types": [
+          {
+            "title": "Elige tu complemento favorito",
+            "image": "",
+            "categories": [
+              {
+                "title": "Para disfrutar a cualquier hora",
+                "items": [
+                  {
+                    "name": "Baguette Suprema",
+                    "image": "",
+                    "ingredients": "",
+                    "allergens": "",
+                    "energyContent": {
+                      "kcal": "",
+                      "g": ""
+                    }
+                  },
+                  {
+                    "name": "Ensalada César",
+                    "image": "",
+                    "ingredients": "Pollo grillado (pechuga y piel de pollo, glaseado (agua, sal yodada, harina de trigo, almidón modificado, especias, glutamato monosódico, saborizantes naturales, ácido cítrico, maltodextrina, goma guar, aceite vegetal, carboximetilcelulosa de sodio, guanilato de sodio, inosinato de sodio, colorantes naturales\n(caramelo clase IV, extracto de paprika), marinador (agua, maltodextrina, sal yodada, fosfato de sodio, saborizante natural, dióxido de silicio (antiapelmazante)), conservadores (benzoato de sodio, sorbato de potasio) y cebolla en polvo )), aderezo césar (agua, aceite vegetal, vinagre de alcohol de caña,\nazúcares añadidos (azúcar), fibra de trigo, almidón modificado de maíz, queso parmesano 2.1%, especias y condimentos (ajo, mostaza, perejil, pimienta), sal yodada, cloruro de potasio (acentuador de sabor), alginato de sodio y goma xantana (estabilizantes), extracto de levadura, cebolla, ácido fosfórico\n(acidulante), saborizantes natural e idéntico al natural, monoestearato de sorbitán (emulsificante), sorbato de potasio y ácido sórbico (conservadores), EDTA disódico cálcico (secuestrante)), lechuga mini romana, jitomate cherry, lechuga sangría, pasta mini fusilli (agua, pasta (sémola de trigo duro, sulfato\nferroso, nicotinamida (niacina), mononitrato de tiamina (Vitamina B1), riboflavina (vitamina B2) y ácido fólico) y queso parmesano.",
+                    "allergens": "Contiene gluten (trigo) y derivados lácteos. Este producto es elaborado en equipo donde se procesan otros ingredientes por lo que puede contener trazas de soya, huevo, cacahuates, nueces, sésamo, pescado, crustáceos, mariscos y/o derivados",
+                    "energyContent": {
+                      "kcal": "193",
+                      "g": "230"
+                    }
+                  },
+                  {
+                    "name": "Sándwich de Pavo y Panela",
+                    "image": "",
+                    "ingredients": "",
+                    "allergens": "",
+                    "energyContent": {
+                      "kcal": "",
+                      "g": ""
+                    }
+                  },
+                  {
+                    "name": "Piadini de Claras con Espinaca",
+                    "image": "",
+                    "ingredients": "",
+                    "allergens": "",
+                    "energyContent": {
+                      "kcal": "",
+                      "g": ""
+                    }
+                  },
+
+                  {
+                    "name": "Panini 3 Quesos",
+                    "image": "",
+                    "ingredients": "",
+                    "allergens": "",
+                    "energyContent": {
+                      "kcal": "",
+                      "g": ""
+                    }
+                  },
+
+                  {
+                    "name": "Grilled Cheese Sándwich",
+                    "image": "",
+                    "ingredients": "",
+                    "allergens": "",
+                    "energyContent": {
+                      "kcal": "",
+                      "g": ""
+                    }
+                  },
+
+                  {
+                    "name": "Envuelto Poblano",
+                    "image": "",
+                    "ingredients": "",
+                    "allergens": "",
+                    "energyContent": {
+                      "kcal": "",
+                      "g": ""
+                    }
+                  },
+
+                  {
+                    "name": "Baguette Clásica",
+                    "image": "",
+                    "ingredients": "",
+                    "allergens": "",
+                    "energyContent": {
+                      "kcal": "",
+                      "g": ""
+                    }
+                  },
+
+                  {
+                    "name": "Baguette Española",
+                    "image": "",
+                    "ingredients": "",
+                    "allergens": "",
+                    "energyContent": {
+                      "kcal": "",
+                      "g": ""
+                    }
+                  },
+
+                  {
+                    "name": "Bagel con pechuga y queso",
+                    "image": "",
+                    "ingredients": "",
+                    "allergens": "",
+                    "energyContent": {
+                      "kcal": "",
+                      "g": ""
+                    }
+                  },
+
+                  {
+                    "name": "Bagel con Guacamole y Queso Crema",
+                    "image": "",
+                    "ingredients": "",
+                    "allergens": "",
+                    "energyContent": {
+                      "kcal": "",
+                      "g": ""
+                    }
+                  },
+
+                  {
+                    "name": "Breakfast Muffin",
+                    "image": "",
+                    "ingredients": "",
+                    "allergens": "",
+                    "energyContent": {
+                      "kcal": "",
+                      "g": ""
+                    }
+                  }
+
+                ]
+              }
+
+
+
+
+
+
+
+            ]
+
+          }
+        ]
+      }
+
+    ]
+  }
+}

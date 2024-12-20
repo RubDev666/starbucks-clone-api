@@ -1,0 +1,253 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Starbucks Menu API",
+    "version": "1.0.0",
+    "description": "API para el menu de Starbucks"
+  },
+  "paths": {
+    "/api/categories": {
+      "get": {
+        "summary": "Obtener todas las categorías principales del menú",
+        "responses": {
+          "200": {
+            "description": "Lista de categorías",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                       "properties": {
+                            "_id": {
+                                "type": "string",
+                                "description": "ID de la categoría"
+                             },
+                             "name": {
+                                  "type": "string",
+                                   "description": "Nombre de la categoría"
+                              }
+                            }
+
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error interno del servidor"
+          }
+        }
+      }
+    },
+    "/api/categories/{categoryName}/types": {
+      "get": {
+        "summary": "Obtener todos los tipos de productos dentro de una categoría",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "categoryName",
+            "required": true,
+            "description": "Nombre de la categoría",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Lista de tipos de productos",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                     "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Categoría no encontrada"
+          },
+          "500": {
+            "description": "Error interno del servidor"
+          }
+        }
+      }
+    },
+    "/api/categories/{categoryName}/types/{typeName}/categories": {
+      "get": {
+        "summary": "Obtener todas las subcategorías dentro de un tipo en una categoría específica",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "categoryName",
+            "required": true,
+            "description": "Nombre de la categoría",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "in": "path",
+            "name": "typeName",
+            "required": true,
+            "description": "Nombre del tipo de producto",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Lista de subcategorías",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                     "type": "string"
+                   }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Categoría o tipo no encontrado"
+          },
+          "500": {
+            "description": "Error interno del servidor"
+          }
+        }
+      }
+    },
+    "/api/categories/{categoryName}/types/{typeName}/categories/{categoryTitle}/items": {
+      "get": {
+        "summary": "Obtener todos los productos de una subcategoría específica",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "categoryName",
+            "required": true,
+            "description": "Nombre de la categoría",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "in": "path",
+            "name": "typeName",
+            "required": true,
+            "description": "Nombre del tipo de producto",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "in": "path",
+            "name": "categoryTitle",
+            "required": true,
+            "description": "Nombre de la subcategoría",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Lista de productos",
+             "content": {
+                  "application/json": {
+                    "schema": {
+                       "type": "array",
+                       "items": {
+                        "type": "object"
+                        }
+                    }
+                  }
+                }
+          },
+          "404": {
+            "description": "Categoría, tipo o subcategoría no encontrado"
+          },
+          "500": {
+            "description": "Error interno del servidor"
+          }
+        }
+      }
+    },
+    "/api/products/{productName}": {
+      "get": {
+        "summary": "Obtener los detalles de un producto específico",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "productName",
+            "required": true,
+            "description": "Nombre del producto",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Detalles del producto",
+             "content": {
+                  "application/json": {
+                    "schema": {
+                        "type": "object"
+                    }
+                  }
+                }
+          },
+          "404": {
+            "description": "Producto no encontrado"
+          },
+          "500": {
+            "description": "Error interno del servidor"
+          }
+        }
+      }
+    },
+      "/api/categories/{categoryName}/items": {
+        "get": {
+          "summary": "Obtener todos los productos dentro de una categoría específica",
+          "parameters": [
+            {
+              "in": "path",
+              "name": "categoryName",
+              "required": true,
+               "description": "Nombre de la categoría",
+                "schema": {
+                "type": "string"
+               }
+            }
+          ],
+          "responses": {
+            "200": {
+                "description": "Lista de productos",
+                 "content": {
+                    "application/json": {
+                      "schema": {
+                         "type": "array",
+                         "items": {
+                          "type": "object"
+                         }
+                       }
+                     }
+                  }
+               },
+            "404": {
+              "description": "Categoría no encontrada"
+            },
+            "500": {
+              "description": "Error interno del servidor"
+            }
+          }
+        }
+      }
+  }
+}

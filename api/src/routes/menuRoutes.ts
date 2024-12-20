@@ -1,34 +1,20 @@
-import { Router } from 'express';
-import { getMenu } from '../controllers/menuController';
+import express from 'express';
+import { getCategories, getTypesByCategory, getSubcategoriesByType, getItemsByCategory, getProductByName, getAllItemsFromCategory } from '../controllers/menuController';
 
-const router = Router();
 
-// GET /api/menu
-/**
- * @openapi
- * /menu:
- *  get:
- *      summary: Obtiene el menú principal.
- *      responses:
- *          200:
- *              description: list of categories
- *              content:
- *                  application/json:
- *                      schema:
- *                          type: array
- *                          items:
- *                              type: object
- *                              properties:
- *                                  id:
- *                                      type: integer
- *                                      example: 1
- *                                  name:
- *                                      type: string
- *                                      example: latte
- *                                  price:
- *                                      type: number
- *                                      example: 40.5
- */
-router.get('/', getMenu);
+const router = express.Router();
+
+// Define un middleware asincrono
+const asyncMiddleware = (fn: any) => (req: any, res: any, next: any) => {
+    Promise.resolve(fn(req, res, next)).catch(next);
+};
+
+router.get('/categories', asyncMiddleware(getCategories));
+router.get('/categories/:categoryName/types', asyncMiddleware(getTypesByCategory));
+router.get('/categories/:categoryName/types/:typeName/categories', asyncMiddleware(getSubcategoriesByType));
+router.get('/categories/:categoryName/types/:typeName/categories/:categoryTitle/items', asyncMiddleware(getItemsByCategory));
+router.get('/products/:productName', asyncMiddleware(getProductByName));
+router.get('/categories/:categoryName/items', asyncMiddleware(getAllItemsFromCategory));
+
 
 export default router;

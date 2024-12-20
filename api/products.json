@@ -1,0 +1,27 @@
+[
+  {
+  "name": "Latte",
+  "subcategory_id": "Bebidas Calientes",
+  "imageUrl": "url-latte.jpg"
+  },
+  {
+  "name": "Caramel Macchiato",
+  "subcategory_id": "Bebidas Calientes",
+  "imageUrl": "url-caramel-macchiato.jpg"
+  },
+  {
+  "name": "Mocha",
+  "subcategory_id": "Bebidas Calientes",
+  "imageUrl": "url-mocha.jpg"
+  },
+  {
+  "name": "Cookies & Cream Frappuccino",
+  "subcategory_id": "Frappuccino",
+  "imageUrl": "url-cookies.jpg"
+  },
+  {
+  "name": "Baguette Suprema",
+  "subcategory_id": "Para disfrutar a cualquier hora",
+  "imageUrl": "url-baguette.jpg"
+  }
+  ]

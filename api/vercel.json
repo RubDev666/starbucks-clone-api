@@ -1,11 +1,46 @@
 {
   "version": 2,
   "builds": [
-    { "src": "api/index.ts", "use": "@vercel/node" },
-    { "src": "vite.config.*", "use": "@vercel/static-build" }
+    {
+      "src": "dist/**/*.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "swagger.json",
+      "use": "@vercel/static"
+    },
+      {
+      "src": "swagger-test.json",
+      "use": "@vercel/static"
+    }
   ],
   "routes": [
-    { "src": "/api/(.*)", "dest": "/api/index.ts" },
-    { "src": "/(.*)", "dest": "/index.html" }
-  ]
+   {
+      "src": "/api-docs/index.html",
+      "dest": "/api-docs/index.html"
+    },
+      {
+      "src": "/api-docs/(.*)",
+      "dest": "/api-docs/$1"
+    },
+    {
+      "src": "/test-docs/index.html",
+      "dest": "/test-docs/index.html"
+    },
+      {
+      "src": "/test-docs/(.*)",
+      "dest": "/test-docs/$1"
+    },
+     {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/dist/server.js"
+    }
+  ],
+  "installCommand": "npm install",
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev"
 }
